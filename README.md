@@ -35,6 +35,9 @@ python main.py
 3. 右側でルーティンを追加し、毎日チェック
 
 ---
+### デモ動画(Youtube)
+こちらの動画を参照ください(45秒)
+https://youtu.be/9uHiGdPAIu8?si=7IfaaBGca2W82Too
 
 ## 2. マリオ風ゲーム（`main_1.py`）
 
@@ -55,6 +58,9 @@ python main.py
 pip install pygame
 python main.py
 ```
+### デモ動画(Youtube）
+こちらの動画を参照ください(47秒)
+https://youtu.be/PJrHlTgqePE?si=_UkhVAq-f9uvVjdb
 
 ### 必要なファイル構成
 画像・音声はmain.pyに付属していないため、以下のように用意してください。
