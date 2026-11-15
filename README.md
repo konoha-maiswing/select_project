@@ -54,7 +54,7 @@ python main.py
 
 https://youtu.be/9uHiGdPAIu8?si=7IfaaBGca2W82Too
 
-## 2. マリオ風ゲーム（`main_1.py`）
+## 2. マリオ風ゲーム（`main.py`）
 
 ### 特徴
 - 横スクロールのステージ（20px のタイルマップ、全64タイル幅）
