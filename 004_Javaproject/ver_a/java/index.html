@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>画面切り替え</title>
+</head>
+<body>
+
+    <!-- タイトル画面 -->
+    <div id="titleScreen">
+
+        <h1>タイトル画面</h1>
+
+        <button onclick="startGame()">
+            スタート
+        </button>
+
+    </div>
+
+
+    <!-- メイン画面 -->
+    <div id="mainScreen" hidden>
+
+        <h1>メイン画面</h1>
+
+        <button onclick="backTitle()">
+            タイトルに戻る
+        </button>
+
+    </div>
+
+
+    <script>
+
+        // メイン画面に切り替える
+        function startGame() {
+
+            document.getElementById("titleScreen").hidden = true;
+
+            document.getElementById("mainScreen").hidden = false;
+
+        }
+
+
+        // タイトル画面に戻る
+        function backTitle() {
+
+            document.getElementById("mainScreen").hidden = true;
+
+            document.getElementById("titleScreen").hidden = false;
+
+        }
+
+    </script>
+
+</body>
+</html>
