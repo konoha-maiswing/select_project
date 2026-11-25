@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.sample.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,17 +6,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PageController {
 
-    // タイトル画面
+    // タイトル画面を表示
     @GetMapping("/")
-    public String title() {
+    public String showTitle() {
         return "title";
     }
 
-    // メイン画面
+    // メイン画面を表示
     @GetMapping("/main")
-    public String main() {
+    public String showMain() {
         return "main";
     }
-
 }
 
